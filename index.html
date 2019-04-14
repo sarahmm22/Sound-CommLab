@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- link css file  -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="floatMap">
+            <img class=map src="map.png" height=100%> 
+        </div>
+        <div class="floatBlock">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 581 321.5"><defs><style>.cls-1{fill:#e93b00;}</style></defs><title>block</title>
+            <rect id="palm" class="cls-1" x="33" y="208.5" width="130" height="113"/>
+            <rect id="c3" class="cls-1" x="414.5" width="95.5" height="126.5"/>
+            <rect id="c2" class="cls-1" y="10" width="196" height="154.5"/>
+            <rect id="d2" class="cls-1" x="526.5" y="153.5" width="54.5" height="124"/></svg>
+        </div>
+
+
+        <script>
+        //------------------------------------------------//
+        //CODE FOR SHAPE ONE//
+        //define what happens when a click occurs on shape one    
+        function clickedshapeOne(){
+            //do something
+            console.log("Shape one was clicked");
+        }
+        //select for the elemnent on the page based on its id
+        var shapeOne = document.getElementById('palm');
+        //attach a click event listener
+        shapeOne.addEventListener('click', clickedshapeOne);
+        //------------------------------------------------// 
+        function clickedshapeTwo(){
+            console.log("Shape two was clicked");
+        }
+        var shapeTwo = document.getElementById('c3');
+        shapeTwo.addEventListener('click', clickedshapeTwo);
+        //
+        function clickedshapeThree(){
+            console.log("Shape three was clicked");
+        }
+        var shapeThree = document.getElementById('c2');
+        shapeThree.addEventListener('click', clickedshapeThree);
+        //
+        function clickedshapeFour(){
+            console.log("Shape four was clicked");
+        }
+        var shapeFour = document.getElementById('d2');
+        shapeFour.addEventListener('click', clickedshapeFour);
+        </script>
+
+    </body>
+</html>
+
+
+
+    </body>
+</html>
